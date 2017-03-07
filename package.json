@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/k0d1ngn1nja/weather-app#readme",
   "dependencies": {
+    "dotenv": "^4.0.0",
     "request": "^2.73.0",
     "yargs": "^4.8.1"
   }
