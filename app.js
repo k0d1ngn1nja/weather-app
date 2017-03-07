@@ -22,7 +22,7 @@ geoCode.geocodeAddress(argv.address, (err, result) => {
 			if(err){
 				console.log(err);
 			} else {
-				console.log(JSON.stringify(weatherResults, undefined, 2));
+				console.log(`The current temperature is ${weatherResults.temperature} and the humidity index level is ${weatherResults.humidity}.`);
 			}
 		});
 	}
